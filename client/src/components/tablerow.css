@@ -1,0 +1,26 @@
+th,
+td {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem 1rem;
+}
+
+td {
+  font-size: 0.8rem;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 5rem;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f9fafc;
+}

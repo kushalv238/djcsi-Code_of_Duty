@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	box-sizing: inherit !important;
+}
+
+:root {
+	--clr-primary: #3e54ac;
+}
+
+body {
+	font-family: 'Poppins';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #F5F5F5;
+}
+
+html {
+	box-sizing: border-box !important;
+	overflow-y: scroll;
+}
+
+.main-content {}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	color: white;
+}
+
+.hide,
+.hide>* {
+	display: none !important;
+}

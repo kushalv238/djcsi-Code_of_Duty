@@ -1,0 +1,32 @@
+#navbar {
+    box-shadow: 20px 20px 80px rgba(3, 99, 139, 0.1);
+    /* padding: 1rem 0; */
+
+    position: sticky;
+    top: 0;
+    background-color: white !important;
+    z-index: 5;
+
+    display: flex;
+    justify-content: end;
+}
+
+.person-wrapper {
+    background-color: rgb(224, 152, 224);
+    padding: 1rem;
+    border-radius: 50%;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* font-weight: 600; */
+    font-size: 1.6rem !important;
+
+    margin: 0.5rem;
+
+    cursor: pointer;
+}
